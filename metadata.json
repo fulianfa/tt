@@ -1,0 +1,5 @@
+{
+  "name": "RouteTopo Viz",
+  "description": "A visualization tool for dynamic routing topology data, displaying network hierarchy from log files.",
+  "requestFramePermissions": []
+}
