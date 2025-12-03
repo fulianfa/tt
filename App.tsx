@@ -1,5 +1,5 @@
-import React, { useState, useMemo, useEffect } from 'react';
-import { TreeNode, ParseResult, NodeGroup, RawNodeData } from './types';
+import { useState, useMemo, useEffect } from 'react';
+import { TreeNode, NodeGroup, RawNodeData } from './types';
 import { parseRawLines, buildTree } from './services/parser';
 import TopologyGraph from './components/TopologyGraph';
 import NodeDetails from './components/NodeDetails';

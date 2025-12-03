@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import { UploadCloud, FileText } from 'lucide-react';
+import { UploadCloud } from 'lucide-react';
 
 interface FileUploadProps {
   onFileUpload: (content: string, fileName: string) => void;

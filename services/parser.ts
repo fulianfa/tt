@@ -123,7 +123,7 @@ export const buildTree = (nodes: RawNodeData[]): TreeNode | null => {
     const orphans = nodes.filter(n => !teiSet.has(n.pcoDec));
     
     if (orphans.length === 1) {
-       rootNode = nodeMap.get(orphans[0].teiDec) || null;
+       rootNode = nodeMap.get(orphans[0].teiDec);
     } else if (orphans.length > 1) {
        // Multiple roots? Create a super-root.
        const superRootData: RawNodeData = {
